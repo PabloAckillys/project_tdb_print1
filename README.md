@@ -1,7 +1,16 @@
 # project_tdb_print1
 Repositório para realizar a sprint 1 de front-end 
 
-Parte de front-end - Responsáveis:
+Front-end Design Engineering - Responsáveis: Kauan e Pablo
+Domain Driven Design using Java - Responsáveis: Kauan e Pablo
+Artificial Intelligence e Chatbot - Responsáveis: Kauan e Pablo
+
+
+Software Engineering - Responsáveis: Thomaz e Eduardo
+Computational Thinking Using Python - Responsáveis: Thomaz e Eduardo
+Building Relational Database - Responsáveis: Thomaz e Eduardo
+
+
 <<<<<<< HEAD
  
  
