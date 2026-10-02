@@ -22,7 +22,51 @@
                 </ul>
             </nav>
         </div>
-    </header>
+    </header>   
+    <!-- Meio de contato dos clientes -->
+    <main>
+        <h1>Nos envie um mensagem</h1>
+        <section>
+            <form class="formluario" action="#" method="post">
+                <div>
+                    <label for="contato-nome">Nome Completo</label><br>
+                    <input type="text" id="contato-nome" name="nome" placeholder="Nome" required>
+                </div>
+                <div class="campos-linha">
+                    <div class="campo">
+                        <label for="contato-email">E-mail</label><br>
+                        <input type="email" id="contato-email" name="email" placeholder="nome@exemplo.com" required>
+                    </div>
+                    <div class="campo">
+                        <label for="contato-telefone">Telefone (opcional)</label><br>
+                        <input type="tel" id="contato-telefone" name="telefone" placeholder="(00) 00000-0000">
+                    </div>
+                </div>
+                <div class="campo">
+                    <label for="contato-assunto">Assunto</label><br>
+                        <select id="contato-assunto" name="assunto" required>
+                        <option value="">Selecione um assunto</option>
+                        <option value="duvida">Dúvida sobre o projeto</option>
+                        <option value="sugestao">Sugestão de melhoria</option>
+                        <option value="parceria">Parceria</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label for="contato-mensagem">Mensagem</label><br>
+                    <textarea id="contato-mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui" required></textarea>
+                    <p class="campo-ajuda">Respondemos pelo e-mail informado acima.</p>
+                </div>
+                    <div class="formulario-acoes">
+                    <button class="btn btn-secundario" type="reset">Limpar campos</button>
+                    <button class="btn btn-primario" type="submit">Enviar mensagem</button>
+                </div>
+            </form>
+        </section>
+    
+    </main>
+
     <!-- RODAPÉ: resumo, navegação e contato (igual em todas as páginas) -->
     <footer class="rodape">
         <div class="rodape-fundo">
